@@ -1,0 +1,19 @@
+{
+  "name": "ed-bpt",
+  "version": "1.0.0",
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "dev": "netlify dev"
+  },
+  "type": "module",
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^6.0.3",
+    "drizzle-orm": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "drizzle-kit": "^1.0.0-beta.22"
+  },
+  "private": true
+}
